@@ -3,6 +3,8 @@ copyright: Venkateswara Reddy S
 
 site_description: "My Project."
 
+repo_name: SudheerKReddyG/sudheer.github.io
+
 theme:
   icon:
     repo: fontawesome/brands/github
