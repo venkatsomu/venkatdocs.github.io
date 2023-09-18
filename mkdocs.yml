@@ -1,10 +1,10 @@
-site_name: Sudheer Reddy G
-copyright: Sudheer Reddy G
+site_name: Venkateswara Reddy Somu
+copyright: Venkateswara Reddy S
 
 site_description: "My Project."
 
-repo_url: https://github.com/SudheerKReddyG/sudheer.github.io
-repo_name: SudheerKReddyG/sudheer.github.io
+repo_url: https://github.com/Venkatsomu/venkatdocs.github.io
+repo_name: VenkatSomu/venkatdocs.github.io
 
 theme:
   icon:
@@ -46,5 +46,5 @@ nav:
       - oic/releasenotes.md
     - About: about.md
 
-copyright: Copyright &copy; 2023 Sudheer Reddy G
+copyright: Copyright &copy; 2023 Venkateswara Reddy S
 
