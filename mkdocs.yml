@@ -39,7 +39,7 @@ nav:
     - Home: index.md
     - OIC: 
       - oic/oic-interview-questions.md
-      - oic/integrations.md
+      - oic/naming-standars.md
     - Fusion:
       - fusion/fusion-interview-questions.md
     - About: about.md
