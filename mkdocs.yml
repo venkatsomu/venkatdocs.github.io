@@ -3,9 +3,6 @@ copyright: Venkateswara Reddy S
 
 site_description: "My Project."
 
-repo_url: https://github.com/Venkatsomu/venkatdocs.github.io
-repo_name: VenkatSomu/venkatdocs.github.io
-
 theme:
   icon:
     repo: fontawesome/brands/github
@@ -38,12 +35,11 @@ extra:
 
 nav:
     - Home: index.md
-    - Getting Started: 
-      - main/install.md
-      - main/deploy.md
-    - Development:
-      - oic/versions.md
-      - oic/releasenotes.md
+    - OIC: 
+      - oic/oic-interview-questions.md
+      - oic/integrations.md
+    - Fusion:
+      - fusion/fusion-interview-questions.md
     - About: about.md
 
 copyright: Copyright &copy; 2023 Venkateswara Reddy S

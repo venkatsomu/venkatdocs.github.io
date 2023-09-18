@@ -1,3 +1,3 @@
 # Welcome
 
-Check Get Started for Python installation and MKDOCS Setup and deploy
+OIC and Fusion interview questions
