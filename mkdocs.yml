@@ -29,6 +29,9 @@ plugins:
   - search
 
 markdown_extensions:
+  - admonition
+  - codehilite
+  - tables
   - pymdownx.highlight
   - pymdownx.superfences
 
@@ -38,11 +41,11 @@ extra:
 nav:
     - Home: index.md
     - OIC: 
+      - oic/oic-basic-questions.md
       - oic/oic-interview-questions.md
       - oic/naming-standars.md
-    - Fusion:
+    - OIC Components:
       - fusion/fusion-interview-questions.md
-    - About: about.md
-
+    
 copyright: Copyright &copy; 2023 Venkateswara Reddy S
 

@@ -12,7 +12,7 @@
       
       
       
-        <link rel="next" href="oic/oic-interview-questions/">
+        <link rel="next" href="oic/oic-basic-questions/">
       
       
       <link rel="icon" href="assets/images/favicon.png">
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome" class="md-skip">
+        <a href="#oic-basics" class="md-skip">
           Skip to content
         </a>
       
@@ -235,6 +235,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -244,6 +255,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#integration" class="md-nav__link">
+    Integration :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connections" class="md-nav__link">
+    Connections :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lookups" class="md-nav__link">
+    Lookups :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agents" class="md-nav__link">
+    Agents :
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -282,6 +347,26 @@
             OIC
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="oic/oic-basic-questions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OIC Basic Interview Questions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -350,7 +435,7 @@
             
   
   <span class="md-ellipsis">
-    Fusion
+    OIC Components
   </span>
   
 
@@ -360,7 +445,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Fusion
+            OIC Components
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -374,7 +459,7 @@
         
   
   <span class="md-ellipsis">
-    Fusion Interview Questions
+    OIC Components
   </span>
   
 
@@ -387,25 +472,6 @@
           </ul>
         </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    About
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -430,6 +496,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#integration" class="md-nav__link">
+    Integration :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connections" class="md-nav__link">
+    Connections :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lookups" class="md-nav__link">
+    Lookups :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#packages" class="md-nav__link">
+    Packages :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agents" class="md-nav__link">
+    Agents :
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -443,8 +552,25 @@
                   
 
 
-<h1 id="welcome">Welcome</h1>
-<p>OIC and Fusion interview questions</p>
+<h1 id="oic-basics">OIC Basics</h1>
+<p>Oracle Integration Cloud Service is a complete, secure, but lightweight integration solution that enables you to connect your applications in the cloud. It simplifies connectivity between your applications and connects both your cloud application and on-premise application.</p>
+<p><img alt="screenshot" src="../images/Oic1_basics.png" /></p>
+<p>Oracle Integration Cloud Service provides native connectivity to Oracle Software as a Service (SaaS) applications, such as Oracle Sales Cloud, Oracle Right Now Cloud, and so on. </p>
+<p>After integrating the application and activating it to the runtime environment, the dashboard displays information about the running integrations, so you can monitor the status and processing statistics for each integration. The dashboard measures and tracks the performance of your transactions by capturing and reporting key information, such as throughput, the number of messages processed successfully, and the number of messages that failed processing.</p>
+<p>Below are the definitions of different Components required to create an end-to-end integration in OIC:</p>
+<h3 id="integration">Integration :</h3>
+<p>Integration uses connections to implement business process.  An integration includes at least a trigger or source connection  and invoke or target connection  and the field mapping between those two connections.
+                 <em>Invoke (target connection ) : For requests sent from OIC Service to the  target
+                </em>Trigger (source connection) : For requests sent to OIC Service</p>
+<h3 id="connections">Connections :</h3>
+<p>A connection is based on an adapter. For example, to create a connection to a specific RightNow Cloud application instance, you must select the Oracle RightNow adapter and then specify the WSDL URL, security policy, and security credentials to connect to it</p>
+<h3 id="lookups">Lookups :</h3>
+<p>A bit like DVMs in SOA Suite, can cross-reference values of the same attribute/element when mapping from one system to another.</p>
+<h3 id="packages">Packages :</h3>
+<p>You can group one or more integrations into a single structure called a package to easily import and export them to and from OIC Service. Packages being optional, integrations do not need to be a part of them. At least one integration is needed for a package to exist.</p>
+<h3 id="agents">Agents :</h3>
+<p>The on-premises connectivity agent enables you to create integrations and exchange messages between on-premises applications and Oracle Integration Cloud Service. For example, sending requests from a cloud application to a on-premise database.
+Adapters : Adapters are endpoints of any integration solution, so they interact directly with the business applications. Adapters do the actual connections with application resources and manage application transactions, security, exceptions, and so on. </p>
 
 
 
