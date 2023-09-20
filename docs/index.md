@@ -2,7 +2,7 @@
 
 Oracle Integration Cloud Service is a complete, secure, but lightweight integration solution that enables you to connect your applications in the cloud. It simplifies connectivity between your applications and connects both your cloud application and on-premise application.
 
-![screenshot](../images/Oic1_basics.png)
+![screenshot](../docs/images/Oic1_basics.png)
 
 
 Oracle Integration Cloud Service provides native connectivity to Oracle Software as a Service (SaaS) applications, such as Oracle Sales Cloud, Oracle Right Now Cloud, and so on. 
