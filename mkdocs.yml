@@ -34,6 +34,11 @@ markdown_extensions:
   - tables
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 extra:
   generator: false
@@ -43,6 +48,7 @@ nav:
     - OIC: 
       - oic/oic-basic-questions.md
       - oic/oic-interview-questions.md
+      - oic/oic-Realtime-questions.md
       - oic/naming-standars.md
     - OIC Components:
       - fusion/fusion-interview-questions.md

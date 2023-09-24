@@ -80,14 +80,14 @@ The OIC supports application lifecycle management by providing versioning, deplo
 
 Remember, these are sample questions and answers that you can use for reference during your interview preparation. Be sure to study the Oracle Integration Cloud documentation and customize your responses based on your understanding and experience.
 
-###  19. How are Versions Handled in OIC?
+###  {==19. How are Versions Handled in OIC?==}
 Versions syntax is major. minor. patch
 Example: 01.00.0001 – Initial Version
      01.01.0001-New Major Version
      01.01.0002- New Patch Version
 Creating and activating a new minor or patch version over an existing version will result in this new version of the integration be the active version. There can be only one version of an integration flow with same major version active at any time. Major versions can run Side by Side.
 
-###  20. What is the Difference between Rest and SOAP API?
+###  {==320. What is the Difference between Rest and SOAP API?==}
 In a service interface, one can use SOAP to expose an application’s business logic to a server, whereas REST uses URIs. REST APIs are designed around data, whereas SOAP APIs are designed around functions. You can include a function like “CreateUser” in a SOAP API that allows creating a user. This function would be a part of the SOAP body.
 
 REST is a data-driven architecture, whereas SOAP is a standard protocol for transmitting structured data that is more function-driven. Unlike SOAP, which only allows the use of XML, REST allows the use of a wide variety of data types, including plain text, HTML, XML, and JSON. The only options for SOAP APIs are XML and the format of the SOAP is called envelope which contains header and body. REST APIs, on the other hand, is format independent. Although JSON is the most popular option, XML, plain text, and XML are all suitable formats for REST APIs.
